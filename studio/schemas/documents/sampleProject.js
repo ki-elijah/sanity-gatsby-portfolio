@@ -64,13 +64,10 @@ export default {
       type: 'url'
     },
     {
-      name: 'tags',
-      title: 'Tags',
+      name: 'tech',
+      title: 'Tech',
       type: 'array',
-      of: [{type: 'string'}],
-      options: {
-        layout: 'tags'
-      },
+      of: [{type: 'reference', to: {type: 'tech'}}]
     },
     {
       name: 'body',
