@@ -64,6 +64,22 @@ export default {
       type: 'projectPortableText'
     },
     {
+      name: "link",
+      type: "url",
+    },
+    {
+      name: "tags",
+      type: "array",
+      of: [
+        {
+          type: "string",
+        },
+      ],
+      options: {
+        layout: "tags",
+      },
+    },
+    {
       name: 'relatedProjects',
       title: 'Related projects',
       type: 'array',
