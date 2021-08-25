@@ -59,6 +59,11 @@ export default {
       of: [{type: 'reference', to: {type: 'category'}}]
     },
     {
+      name: 'link',
+      title: 'Link',
+      type: 'url'
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'projectPortableText'
@@ -86,9 +91,5 @@ export default {
         subtitle: publishedAt ? path : 'Missing publishing date'
       }
     }
-  },
-    {
-      name: 'link',
-      type: 'url'
-    }
+  }
 }
