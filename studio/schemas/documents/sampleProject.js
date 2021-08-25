@@ -64,6 +64,15 @@ export default {
       type: 'url'
     },
     {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags'
+      },
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'projectPortableText'
