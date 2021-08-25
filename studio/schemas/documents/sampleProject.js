@@ -64,18 +64,6 @@ export default {
       type: 'projectPortableText'
     },
     {
-      name: "link",
-      type: "url"
-    },
-    {
-      name: "tags",
-      type: "array",
-      of: [{type: "string"}],
-      options: {
-        layout: "tags"
-      },
-    },
-    {
       name: 'relatedProjects',
       title: 'Related projects',
       type: 'array',
@@ -98,5 +86,9 @@ export default {
         subtitle: publishedAt ? path : 'Missing publishing date'
       }
     }
-  }
+  },
+    {
+      name: 'link',
+      type: 'url'
+    }
 }
