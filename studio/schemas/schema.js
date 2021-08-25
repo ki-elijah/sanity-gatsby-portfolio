@@ -9,6 +9,7 @@ import category from './documents/category'
 import person from './documents/person'
 import sampleProject from './documents/sampleProject'
 import siteSettings from './documents/siteSettings'
+import tech from './documents/tech'
 
 // Object types
 import bioPortableText from './objects/bioPortableText'
