@@ -65,18 +65,14 @@ export default {
     },
     {
       name: "link",
-      type: "url",
+      type: "url"
     },
     {
       name: "tags",
       type: "array",
-      of: [
-        {
-          type: "string",
-        },
-      ],
+      of: [{type: "string"}],
       options: {
-        layout: "tags",
+        layout: "tags"
       },
     },
     {
